@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discoteca</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #3e4a52;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+        }
+        header h1 {
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 16px;
+        }
+        nav ul li a:hover {
+            background-color: #5e6b72;
+            border-radius: 5px;
+        }
+        .intro {
+            background-color: #fff;
+            padding: 50px;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .intro h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .intro p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #3e4a52;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Discoteca Virtual</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://localhost/discoteca/interface/index.html">Início</a></li>
+                <li><a href="http://localhost/discoteca/disco_CRUD/indexDisco.php">Discos</a></li>
+                <li><a href="http://localhost/discoteca/artista_CRUD/indexArtista.php">Artistas</a></li>
+                <li><a href="http://localhost/discoteca/emprestimo/indexEmprestimo.php">Empréstimos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="intro">
+        <h2>Bem-vindo à Discoteca Virtual!</h2>
+        <p>Aqui você pode organizar, gerenciar e compartilhar sua coleção de discos com facilidade. Navegue entre os artistas, faça empréstimos, e descubra novos títulos.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 - Discoteca Virtual - 3°TI</p>
+    </footer>
+</body>
+</html>
